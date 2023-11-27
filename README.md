@@ -25,13 +25,15 @@ glue::glue({
 "
 Dear adults[firstx[,1]], you have been assigned two people for Secret Santa!
 
-{adults[firstx[,2]]} and {adults[firstx[,3]]}. Please gift just these two adults for xmas day. 
+{adults[firstx[,2]]} and {adults[firstx[,3]]}.
 
-There are twelve adults in the Secret Santa pool. 
+Please gift just these two adults for xmas day. 
 
-Your name has also been discreetly assigned to two other adults.
+There are twelve adults in the Secret Santa pool. Your name has also been discreetly assigned to two other adults.
 
-(No pressure on the gift, just choose something that works for you). 
+(No pressure on the gifts, just choose something that works for you). 
+
+Please respond that you got this message and agree to accept this vitally important Xmas mission.
 
 Happy December!
 
