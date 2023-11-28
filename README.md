@@ -12,7 +12,8 @@ while(!tst) {
   print(i)
 }
 
-
+## same length as pool, for writing the templated message below
+#adults <- c("Fred", "Barney", "Wilma", ...)
 
 ## first successful pool
 firstx <- structure(c(1L, 2L, 3L, 4L, 5L, 6L, 7L, 8L, 9L, 10L, 11L, 12L, 
@@ -23,7 +24,7 @@ firstx <- structure(c(1L, 2L, 3L, 4L, 5L, 6L, 7L, 8L, 9L, 10L, 11L, 12L,
 ## put in the curly braces for the first adults indexed to write the names in : 
 glue::glue({
 "
-Dear adults[firstx[,1]], you have been assigned two people for Secret Santa!
+Dear {adults[firstx[,1]]}, you have been assigned two people for Secret Santa!
 
 {adults[firstx[,2]]} and {adults[firstx[,3]]}.
 
